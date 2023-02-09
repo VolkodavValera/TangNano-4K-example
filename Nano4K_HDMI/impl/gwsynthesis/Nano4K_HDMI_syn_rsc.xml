@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top" Register="73" Alu="23" Lut="151">
-    <SubModule name="dvi_tx" Register="50" Alu="68" Lut="217"/>
+<Module name="top" Register="40" Alu="19" Lut="747" Dsp="2">
+    <SubModule name="Toggle_Pin" Register="25" Lut="53"/>
+    <SubModule name="dvi_tx" Register="65" Alu="68" Lut="217"/>
+    <SubModule name="VGA_PRINT" Alu="110" Lut="28" Dsp="1"/>
+    <SubModule name="ROM_T" Bsram="1"/>
+    <SubModule name="SHIFT_Centre" Register="59" Alu="12" Lut="96"/>
+    <SubModule name="gw_gao_inst_0" Register="421" Alu="10" Lut="418" Bsram="3"/>
 </Module>

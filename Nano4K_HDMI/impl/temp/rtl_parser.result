@@ -1,29 +1,61 @@
 [
  {
-  "InstFile" : "D:/FPGA/Nano4K_HDMI/src/top.v",
+  "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
   "InstLine" : 1,
   "InstName" : "top",
-  "ModuleFile" : "D:/FPGA/Nano4K_HDMI/src/top.v",
+  "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
   "ModuleLine" : 1,
   "ModuleName" : "top",
   "SubInsts" : [
    {
-    "InstFile" : "D:/FPGA/Nano4K_HDMI/src/top.v",
-    "InstLine" : 112,
+    "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
+    "InstLine" : 81,
+    "InstName" : "Toggle_Pin",
+    "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/led_test.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "led"
+   },
+   {
+    "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
+    "InstLine" : 121,
     "InstName" : "dvi_tx",
-    "ModuleFile" : "D:/FPGA/Nano4K_HDMI/src/dvi_tx/dvi_tx.v",
+    "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/dvi_tx/dvi_tx.v",
     "ModuleLine" : 1042,
     "ModuleName" : "DVI_TX_Top",
     "SubInsts" : [
      {
-      "InstFile" : "D:/FPGA/Nano4K_HDMI/src/dvi_tx/dvi_tx.v",
+      "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/dvi_tx/dvi_tx.v",
       "InstLine" : 1073,
       "InstName" : "rgb2dvi_inst",
-      "ModuleFile" : "D:/FPGA/Nano4K_HDMI/src/dvi_tx/dvi_tx.v",
+      "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/dvi_tx/dvi_tx.v",
       "ModuleLine" : 1,
       "ModuleName" : "~rgb2dvi.DVI_TX_Top"
      }
     ]
+   },
+   {
+    "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
+    "InstLine" : 243,
+    "InstName" : "VGA_PRINT",
+    "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/VGA_BITSTREAM.v",
+    "ModuleLine" : 139,
+    "ModuleName" : "VGA_GRID"
+   },
+   {
+    "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
+    "InstLine" : 269,
+    "InstName" : "ROM_T",
+    "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/gowin_rom/gowin_rom.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_ROM"
+   },
+   {
+    "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
+    "InstLine" : 279,
+    "InstName" : "SHIFT_Centre",
+    "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/VGA_Controller.sv",
+    "ModuleLine" : 123,
+    "ModuleName" : "CENTER_MOVEMENT"
    }
   ]
  }

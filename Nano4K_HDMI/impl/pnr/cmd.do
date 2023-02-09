@@ -1,10 +1,12 @@
--d D:\FPGA\Nano4K_HDMI\impl\gwsynthesis\Nano4K_HDMI.vg
+-d E:\GOWIN\TangNano-4K-example\Nano4K_HDMI\impl\gwsynthesis\Nano4K_HDMI.vg
 -p GW1NSR-4C-QFN48P-7
 -pn GW1NSR-LV4CQN48PC7/I6
--cst D:\FPGA\Nano4K_HDMI\src\Nano4K_HDMI.cst
--cfg D:\FPGA\Nano4K_HDMI\impl\pnr\device.cfg
+-cst E:\GOWIN\TangNano-4K-example\Nano4K_HDMI\src\Nano4K_HDMI.cst
+-cfg E:\GOWIN\TangNano-4K-example\Nano4K_HDMI\impl\pnr\device.cfg
+-gao_crc 1001011111010110
 -bit
 -tr
 -ph
 -timing
 -cst_error
+-rtl_gao

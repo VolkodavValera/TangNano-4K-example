@@ -1,0 +1,30 @@
+[
+ {
+  "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/top.v",
+    "InstLine" : 114,
+    "InstName" : "dvi_tx",
+    "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 1042,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/dvi_tx/dvi_tx.v",
+      "InstLine" : 1073,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "E:/GOWIN/TangNano-4K-example/Nano4K_HDMI/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ }
+]

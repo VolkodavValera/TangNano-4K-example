@@ -1,0 +1,56 @@
+{
+ "Files" : [
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/dvi_tx/dvi_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/gowin_pllvr/GW_PLLVR.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/gowin_pllvr/TMDS_PLLVR.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/hyperram_memory_interface/hyperram_memory_interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/ov2640/I2C_Interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/ov2640/OV2640_Controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/ov2640/OV2640_Registers.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/syn_code/syn_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/testpattern.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/video_frame_buffer/video_frame_buffer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/GOWIN/TangNano-4K-example/dk_video/project/src/video_top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/GOWIN/TangNano-4K-example/dk_video/project/impl/temp/rtl_parser.result",
+ "Top" : "video_top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

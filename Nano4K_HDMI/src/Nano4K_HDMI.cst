@@ -18,3 +18,5 @@ IO_LOC "clk" 45;
 IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 IO_LOC "rst_n" 14;
 IO_PORT "rst_n" PULL_MODE=UP;
+IO_LOC "led_pin" 10;
+IO_PORT "led_pin" PULL_MODE=NONE DRIVE=8;

@@ -1,0 +1,10 @@
+-d E:\GOWIN\TangNano-4K-example\dk_video\project\impl\gwsynthesis\dk_video.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst E:\GOWIN\TangNano-4K-example\dk_video\project\src\dk_video.cst
+-cfg E:\GOWIN\TangNano-4K-example\dk_video\project\impl\pnr\device.cfg
+-sdc E:\GOWIN\TangNano-4K-example\dk_video\project\src\dk_video.sdc
+-bit
+-tr
+-ph
+-timing
